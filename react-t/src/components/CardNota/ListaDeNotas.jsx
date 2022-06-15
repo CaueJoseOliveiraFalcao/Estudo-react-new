@@ -8,7 +8,7 @@ export default class ListaDeNotas extends Component {
                 <ul>
                     {Array.of("Trabalho", "Trabalho", "Estudos").map((categoria , index) => {
                         return (
-                            <li key={index}>
+                            <li className='card-name' key={index}>
                                 <CardNota />
                             </li>
                         );

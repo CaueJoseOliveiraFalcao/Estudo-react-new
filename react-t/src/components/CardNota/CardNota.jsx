@@ -3,13 +3,9 @@ import './style.css'
 export default class CardNota extends Component {
     render() {
         return (
-            <section className='card-name'>
-                <section>
-                    <header >
-                        <h3>Título</h3>
-                    </header>
-                    <p>I GHSCK</p>
-                </section>
+            <section >
+                <h3>Titulo</h3>
+                <p>Im tankig to you come on I TANKIN TO YOU COME ON</p>
             </section>
         );
     }

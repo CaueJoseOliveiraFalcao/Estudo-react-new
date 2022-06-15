@@ -1,4 +1,14 @@
 .container-form{
     display: flex;
-    width: 50vw;
+    width: 30vw;
+    flex-direction: column;
+}
+.container-form input , textarea , button{
+    background-color: rgb(232, 229, 229);
+    margin: 0.2rem 6.5%;
+    border-style: none;
+}
+.border{
+    border-right: solid;
+    border-color: rgb(181, 181, 181);
 }
