@@ -12,3 +12,10 @@
     max-width: 300px;
     list-style: none;
 }
+.card-text{
+    word-break: break-all;
+    padding: 0 0.5rem;
+}
+.card-titulo{
+    padding: 0 0.4rem;
+}
