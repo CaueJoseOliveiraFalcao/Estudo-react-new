@@ -27,4 +27,10 @@
         margin: 0 1rem;
         margin-top: 2rem;
     }
+.card-text{
+    word-break: break-all;
+    padding: 0 0.5rem;
+}
+.card-titulo{
+    padding: 0 0.4rem;
 }

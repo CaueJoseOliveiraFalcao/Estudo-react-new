@@ -32,4 +32,13 @@
         background-color: rgb(232, 229, 229);
         height: 3rem;
     }
+.Form-cadastro{
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+}
+.Titulo-input{
+    background-color: rgb(232, 229, 229);
+    margin: 0.2rem 6.5%;
+    border-style: none
 }
