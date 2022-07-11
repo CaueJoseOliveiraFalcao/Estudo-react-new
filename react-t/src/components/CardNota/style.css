@@ -12,3 +12,19 @@
     max-width: 300px;
     list-style: none;
 }
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .card-name{
+        max-width: 100%;
+    }
+    .ul-d{
+        padding: 0;
+        margin: 0 1rem;
+        margin-top: 2rem;
+    }
+}

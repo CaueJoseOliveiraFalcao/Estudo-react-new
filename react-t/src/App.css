@@ -4,9 +4,16 @@
   margin: 0;
   background-color: white;
   display: flex;
+
   
 }
 body{
   padding: 0;
   margin: 0;
+}
+@media (max-width:768px) {
+  .div-f{
+    flex-direction: column;
+    height: auto;
+  }
 }
