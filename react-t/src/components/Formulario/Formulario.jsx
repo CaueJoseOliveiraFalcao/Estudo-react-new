@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './form.css'
 export default class Formulario extends Component {
     constructor(){
-        super();
+        super()
         this.titulo = '';
         this.nota = '';
 
