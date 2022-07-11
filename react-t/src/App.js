@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Formulario from './components/Formulario/Formulario';
+import Formulario from './components/Formulario';
 import ListaDeNotas from './components/CardNota/ListaDeNotas';
 function App() {
   return (
@@ -8,8 +8,6 @@ function App() {
       <Formulario></Formulario>
       <ListaDeNotas></ListaDeNotas>
     </section>
-    
   );
 }
-
 export default App;
