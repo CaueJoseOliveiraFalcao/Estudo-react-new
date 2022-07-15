@@ -44,14 +44,7 @@
     border-style: none!important;
     border-color: none!important;
 }
-.Titulo-input:hover{
-    border-style: none!important;
-    border-color: blue!important;
-}
+
 .text-input{
     height: 200px;
-}
-section form textarea:focus{
-    border-style: solid!important;
-    border-color: white!important;
 }

@@ -12,6 +12,7 @@ export default class Formulario extends Component {
     }
     handleMudancaNota(evento){
         this.nota = evento.target.value
+        console.log(this.nota)
     }
     render() {
         return (
