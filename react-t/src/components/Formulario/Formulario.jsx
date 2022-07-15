@@ -12,12 +12,17 @@ export default class Formulario extends Component {
     }
     handleMudancaNota(evento){
         this.nota = evento.target.value
-        console.log(this.nota)
+    }
+    CriarCard(evento){
+        evento.preventDefault();
+        evento.stopPropagation();
+        console.log(`Um novo Card Foi Criado ${this.titulo} , ${this.nota}`)
+        document.getElementById('form').reset()
     }
     render() {
         return (
             <section className='border'>
-                <form className='Form-cadastro'>
+                <form id='form' className='Form-cadastro' onSubmit={this.CriarCard.bind(this)}>
                     <input onChange={this.handleMudancaTitulo.bind(this)} className='Titulo-input' type="text" placeholder="Título" />
                     <textarea onChange={this.handleMudancaNota.bind(this)} className='text-input' placeholder="Escreva sua nota..."></textarea>
                     <button>Criar Nota</button>
