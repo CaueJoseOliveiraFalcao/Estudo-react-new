@@ -6,9 +6,9 @@ export default class CardNota extends Component {
             <section className='card-name'>
                 <section>
                     <header >
-                        <h3 className='card-titulo'>Título</h3>
+                        <h3 className='card-titulo'></h3>
                     </header>
-                    <p className='card-text'>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                    <p className='card-text'></p>
                 </section>
             </section>
         );
