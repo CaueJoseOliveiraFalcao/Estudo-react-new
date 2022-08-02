@@ -1,6 +1,6 @@
 import React from 'react';
-import SayMyName from './SayMyName';
 import Pessoa from './Pessoa';
+import PropTypes from 'prop-types'
 function HelloWord() {
     return (
         <section>
@@ -8,5 +8,13 @@ function HelloWord() {
             <Pessoa marca='fe3rrari top' lancamento='2007' />
         </section>
     )
+}
+HelloWord.propTypes = {
+    //marca: PropTypes.string,
+    //lancamento: PropTypes.string
+}
+HelloWord.defaultProps = {
+    marca: 'Faltou a marca',
+    lancamento: 0
 }
 export default HelloWord
