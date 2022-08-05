@@ -8,7 +8,7 @@ function Evento(){
         event.preventDefault(event)
     }
     function muda(e){
-        e.preventdefault(e)
+        e.preventDefault(e)
         console.log('fudeuse')
     }
     const [name , setName] = useState()
@@ -21,7 +21,7 @@ function Evento(){
                 <input type="submit" />
             </form>
             <p>Clique para disparar um evento</p>
-            <Button text='primeiro Evento'/>
+            <Button  text='clique'/>
             <button onClick={muda}></button>
         </section>
     )
