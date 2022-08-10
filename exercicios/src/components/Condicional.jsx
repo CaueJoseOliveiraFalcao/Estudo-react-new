@@ -3,9 +3,10 @@ import React, { useState } from 'react';
 
 function Condicional(){
     const [email, setEmail] = useState()
+
     function EnviarEmail(e) {
         e.preventDefault(e)
-        console.log('TESTEEEEEEEEEEEEE')
+        console.log(email)
     }
     return(
         <section>

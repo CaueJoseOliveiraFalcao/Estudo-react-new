@@ -4,7 +4,7 @@ import React from 'react';
 function SayMyName(props){
     return(
         <div>
-            ´<p>ola {props.nome}</p>
+            <p>ola {props.nome}</p>
         </div>
     )
 }
