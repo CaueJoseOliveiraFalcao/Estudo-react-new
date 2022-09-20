@@ -1,12 +1,15 @@
-import Papaia from "./components/Papaia";
+import { useState } from "react";
+import Statelif from "./components/Statelif";
 import "./style.css";
+import Stasau from "./components/Stasau";
 
 function App() {
-    const array = ['React' , 'Vue' , 'Angular']
+    //const array = ['React' , 'Vue' , 'Angular']
+    const [nome, setNome] = useState()
     return ( 
     <div className = "App" >
-        <h1>Redenrização de Listas</h1>
-        <Papaia array={array} />
+        <Statelif setNome={setNome} />
+        <Stasau nome={nome}/>
     </div>
     );
 }
